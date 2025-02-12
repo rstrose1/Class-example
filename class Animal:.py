@@ -22,3 +22,10 @@ cat = Cat("Whiskers")
 print(animal.speak())
 print(dog.speak())
 print(cat.speak())
+
+#dictionary of colors
+color = {"R": 123, "G": 145, "B": 255}
+
+multi_line = (f'R: {color["R"]}\nG: {color["G"]}\nB: {color["B"]}\n')
+
+print(multi_line)
